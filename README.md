@@ -13,13 +13,21 @@ Upload a white blood cell image → Model processes the image → Output: Predic
 
 📁 Project Structure
 HematoVision/
+
 ├── app.py → Flask backend application
+
 ├── Blood cell.h5 → Trained Keras model file
+
 ├── requirements.txt → List of required Python packages
+
 ├── templates/
+
 │ ├── home.html → Image upload page
+
 │ └── result.html → Prediction result display
+
 ├── static/ → Temporary storage for uploaded images
+
 └── README.md → Project documentation
 
 💻 Setup Instructions
